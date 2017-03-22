@@ -21,7 +21,22 @@
 
 .navbar li:hover{
   background: #ca2129;
+
 }
+
+li.login a,{
+  background: #ca2129;
+  color: white !important;
+  padding-right: 22px;
+  padding-left: 22px;
+}
+
+li.login a:hover{
+  background: gray !important;
+  color: black !important;
+  transition: 1.2s;
+}
+
 
 .jumbotron{
   background: url(../img/waterdrop.jpg) no-repeat 50% 0;
@@ -105,12 +120,12 @@
   color: white;
 }
 
-a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
-  background: red ;
-  border: red;
+a.list-group-item.active{
+  background: gray ;
+  border: black;
+
 }
 
-list-group.gray-list  {
-  background: gray ;
-  border: gray;
-}
+ a.list-group-item.active:hover{
+   background: #86161b;
+ }
